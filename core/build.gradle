@@ -22,6 +22,12 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+    // web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // provider
+    implementation 'jakarta.inject:jakarta.inject-api:2.0.1'
+
     // 롬복
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
